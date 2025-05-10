@@ -1,0 +1,21 @@
+name: rfmac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - biopython
+  - matplotlib
+  - ipython
+  - openmm=7.7.0
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - hydra-core
+      - omegaconf
+      - pytorch-lightning
+
