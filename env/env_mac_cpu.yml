@@ -11,6 +11,7 @@ dependencies:
   - matplotlib
   - ipython
   - openmm=7.7.0
+  - scipy
   - pip:
       - torch
       - torchvision
@@ -18,4 +19,7 @@ dependencies:
       - hydra-core
       - omegaconf
       - pytorch-lightning
+      - opt_einsum
+      - tqdm
+      - pyro-ppl
 
